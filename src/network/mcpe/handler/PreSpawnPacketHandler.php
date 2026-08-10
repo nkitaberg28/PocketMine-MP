@@ -117,7 +117,7 @@ class PreSpawnPacketHandler extends PacketHandler{
 				false,
 				false,
 				new NetworkPermissions(disableClientSounds: true),
-				false,
+				true,
 				null,
 				new ServerTelemetryData("", "", "", ""),
 				[],
